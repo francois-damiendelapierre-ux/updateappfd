@@ -1,0 +1,13 @@
+# .gitignore pour le dépôt public updateappfd
+# Ce dépôt ne contient QUE latest.json — aucun code source.
+# Ignorer tout, sauf les fichiers explicitement autorisés.
+
+# Ignorer tout par défaut
+*
+
+# Autoriser ce fichier .gitignore lui-même
+!.gitignore
+
+# Autoriser le dossier beta/ et son contenu
+!beta/
+!beta/latest.json

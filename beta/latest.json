@@ -1,9 +1,9 @@
 {
   "version": "1.0.0-beta",
-  "notes": "fix: ajout icon.ico pour le build Windows (généré depuis 128x128.png)
+  "notes": "fix: icon.ico déclaré dans tauri.conf.json bundle.icon (build Windows)
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-  "pub_date": "2026-04-23T13:51:27Z",
+  "pub_date": "2026-04-23T14:23:47Z",
   "platforms": {
     "darwin-aarch64": { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" },
     "darwin-x86_64":  { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" }

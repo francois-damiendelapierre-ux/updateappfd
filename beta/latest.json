@@ -1,11 +1,9 @@
 {
   "version": "1.0.0-beta",
-  "notes": "fix: release indépendante de Windows — job release sur Mac seul + upload-windows séparé
+  "notes": "fix: ajout icon.ico pour le build Windows (généré depuis 128x128.png)
 
-- job release : needs [build-mac] uniquement — publie .dmg + latest.json Mac dès que Mac réussit
-- job upload-windows : needs [build-windows, release], if: Windows success — ajoute .exe
-  à la release existante et met à jour latest.json avec les deux plateformes",
-  "pub_date": "2026-04-23T13:29:53Z",
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+  "pub_date": "2026-04-23T13:51:27Z",
   "platforms": {
     "darwin-aarch64": { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" },
     "darwin-x86_64":  { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" }

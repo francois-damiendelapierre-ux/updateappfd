@@ -1,12 +1,9 @@
 {
-  "version": "1.0.0-beta",
-  "notes": "fix: icon.ico déclaré dans tauri.conf.json bundle.icon (build Windows)
-
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
-  "pub_date": "2026-04-23T14:44:43Z",
+  "version": "1.0.1-beta",
+  "notes": "ci: Node.js 20 → 22 dans GitHub Actions",
+  "pub_date": "2026-05-05T10:28:38Z",
   "platforms": {
-    "darwin-aarch64": { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" },
-    "darwin-x86_64":  { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_mac_1.0.0-beta.dmg", "signature": "" },
-    "windows-x86_64": { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.0-beta/app_win_1.0.0-beta.exe", "signature": "" }
+    "darwin-aarch64": { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.1-beta/app_mac_1.0.1-beta.dmg", "signature": "" },
+    "darwin-x86_64":  { "url": "https://github.com/francois-damiendelapierre-ux/researchpilot/releases/download/v1.0.1-beta/app_mac_1.0.1-beta.dmg", "signature": "" }
   }
 }
